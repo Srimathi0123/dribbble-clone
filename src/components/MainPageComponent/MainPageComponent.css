@@ -21,13 +21,13 @@
   display: flex;
   flex-wrap: wrap;
   overflow-x: auto;
-  gap: 10px;
+  
   margin-top: 20px;
 }
 
 .image-gallery img {
-  width: 150px;
-  height: 150px;
+  width: 1px;
+  height: 140px;
   object-fit: cover;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -43,21 +43,6 @@
   width: 4%;
   height: 8%;
 }
-
-.image-gallery {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-}
-
-.image-gallery img {
-  width: 100%;
-  height: auto;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  transition: transform 0.3s;
-}
-
 .menus {
   list-style-type: none;
  padding: 0%;
@@ -152,8 +137,8 @@ select.subject-dropdown {
   text-decoration: none;
   display: block;
 }
-
-.image-gallery {
+ 
+ .image-gallery {
   display: flex;
   flex-wrap: wrap;
 }
@@ -166,10 +151,10 @@ select.subject-dropdown {
 
 .image-container img {
   display: block;
-  width: 100%;
+  width: 90%;
   height: auto;
   border-radius: 10px;
-}
+} 
 
 .image-name-overlay {
   position: absolute;
