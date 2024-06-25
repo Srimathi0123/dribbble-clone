@@ -93,6 +93,7 @@
 
 .navigation:hover .navigation-content {
   display: block;
+    height: 1%;
 }
 
 .dribbble {
@@ -102,10 +103,9 @@
   padding-top: 1%;
 }
 .dribbbl{
-  position: absolute;
-  left: 2%;
-  top: 155%;
-  padding-top: 1%;
+  justify-content: start;
+  display: flex;
+  float: left;
 }
 
 .filter {
@@ -250,3 +250,6 @@ button {
   justify-content: end;
   float: right;
 }
+/* *{
+  background-color: aliceblue;
+} */
